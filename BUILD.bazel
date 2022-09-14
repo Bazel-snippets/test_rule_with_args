@@ -1,0 +1,6 @@
+load("sample_test.bzl", "sample_test")
+
+sample_test(
+    name = "sample_test",
+    args = ["/C echo 123"],
+)
